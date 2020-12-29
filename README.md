@@ -34,7 +34,7 @@ This is a basic template for building new map colonies services in typescript.
 
 1. when importing external dependencies from DI (such as McLogger) in class constructor the following decorator must be used to retrieve instance:
 
-```typescript
+```typescriptmmmmm
 @inject(delay(() => <injection token>)) <variable definition>
 ```
 
